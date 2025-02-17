@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic|Azeret+Mono");
 @import url("fontawesome-all.min.css");
 
 /*
-	Welcome to my Portfolio!
+	Welcome to my Portfolio! I value showing my love for crafting digital experiences by creating my of portfolio website <3
 
-	For this portfolio I used the Astral template by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	I used the Astral template by html5up.net @ajlkn (Free for personal and commercial use under the CCA 3.0 license)
 */
 
 html, body, div, span, applet, object,
@@ -1308,9 +1306,8 @@ input, select, textarea {
 	}
 
 	body {
-		
-		background-color: #222222;
-		
+				background-color: #222222;
+
 		background-repeat: repeat, no-repeat;
 		background-size: auto;
 		background-attachment: fixed;
@@ -1372,17 +1369,20 @@ input, select, textarea {
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 500;
-		color: rgba(255, 200, 61);
+		color: lightskyblue;
 	}
 
 	h1 {
 		font-size: 3.0em;
-		letter-spacing: -0.015em;
+		letter-spacing: -0.013em;
+		font-weight: 1000;
 	}
 
 	h2 {
 		font-size: 1.8em;
 		letter-spacing: -0.015em;
+		font-family: unset;
+		font-weight: lighter;
 	}
 
 	h3 {
@@ -1390,7 +1390,7 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
-	h4, h5, h6 {
+	h4 {
 		font-size: 0.80em;
 		letter-spacing: -0.015em;
 		color: #484848;
@@ -1981,6 +1981,7 @@ input, select, textarea {
 		overflow: hidden;
 		width: 100%;
 		background: white;
+		border-radius: 5px;
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
@@ -2029,6 +2030,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
+				
 			}
 
 				#main > .panel.intro .pic {
@@ -2252,6 +2254,7 @@ input, select, textarea {
 			background: #000;
 			background: rgba(0, 0, 0, 0.75);
 			color: white;
+			
 			text-align: center;
 			line-height: 2.75em;
 			font-size: 1.5em;
